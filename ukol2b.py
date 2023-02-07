@@ -16,7 +16,7 @@ if kod in sklad:
     if pocet > sklad[kod]:
         print(f"Lze prodat pouze {sklad[kod]} ks.")
         sklad.pop(kod)
-    else:
+    else: 
         print(f"Dostatečná počet ks na skladě.")
         sklad[kod] = sklad[kod] - pocet
          
